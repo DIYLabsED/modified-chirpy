@@ -91,7 +91,7 @@ Social contact options are displayed at the bottom of the sidebar. You can enabl
 
 ### Customizing the Stylesheet
 
-To customize the stylesheet, copy the theme's `assets/css/jekyll-theme-chirpy.scss`{: .filepath} file to the same path in your Jekyll site, and add your custom styles at the end of the file.
+To customize the stylesheet, copy the theme's `assets/css/modified-chirpy.scss`{: .filepath} file to the same path in your Jekyll site, and add your custom styles at the end of the file.
 
 ### Customizing Static Assets
 
