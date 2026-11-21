@@ -24,6 +24,14 @@ This theme is based on [Chirpy v7.6.0](https://github.com/cotes2020/jekyll-theme
 It adds configurable font families, project-date archives, and client-side Pikchr rendering.
 The web demo system is not part of this theme.
 
+### Publishing this theme for `remote_theme`
+
+The GitHub-hosted theme must include the generated `_sass/vendors/` and
+`assets/js/dist/` files. Before publishing theme changes, run `npm install`
+and `npm run build`, then commit those generated directories with the source.
+They are intentionally not ignored because Jekyll's remote-theme plugin
+downloads the repository source and does not run the theme's npm build.
+
 ### Custom fonts
 
 Set `fonts.ui`, `fonts.post_title`, `fonts.header`, and `fonts.body` in the site
